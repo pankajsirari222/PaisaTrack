@@ -5,14 +5,14 @@ const About = ()=>{
     return(
         <>
         <Navbar/>
-        <section class="text-gray-600 body-font">
+        <section class="text-gray-600 body-font bg-blue-800">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We are a passionate group of student developers who started working on this project as part of our university curriculum. But over the course of this project, we have grown to love this project and we are now working on it as a hobby. Our mission is to scale this project up further and make it available to everyone.</p>
+      <h1 class="text-2xl font-medium title-font mb-4 text-white">OUR TEAM</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-white">We are a passionate group of student developers who started working on this project as part of our university curriculum. But over the course of this project, we have grown to love this project and we are now working on it as a hobby. Our mission is to scale this project up further and make it available to everyone.</p>
     </div>
     <div class="flex flex-wrap -m-4">
-      <div class="p-4 lg:w-1/3 md:w-1/2">
+      <div class="p-4 lg:w-1/3 md:w-1/2 bg-white border-blue-800 border-4">
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain mb-4" src="https://media.licdn.com/dms/image/D4D03AQFS6qbR1eL4Ew/profile-displayphoto-shrink_400_400/0/1679665079206?e=1689206400&v=beta&t=JjVMJb7WYBcJ7uQK2V637pzvAykt8k2eFehJv4-qls8"/>
           <div class="w-full">
@@ -38,7 +38,7 @@ const About = ()=>{
           </div>
         </div>
       </div>
-      <div class="p-4 lg:w-1/3 md:w-1/2">
+      <div class="p-4 lg:w-1/3 md:w-1/2 bg-white border-blue-800 border-4">
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain mb-4" src="https://avatars.githubusercontent.com/u/74368103?v=4"/>
           <div class="w-full">
@@ -64,7 +64,7 @@ const About = ()=>{
           </div>
         </div>
       </div>
-      <div class="p-4 lg:w-1/3 md:w-1/2">
+      <div class="p-4 lg:w-1/3 md:w-1/2 bg-white border-blue-800 border-4">
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain mb-4" src="https://media.licdn.com/dms/image/D4D03AQFHsTf9sduFxA/profile-displayphoto-shrink_400_400/0/1670182598586?e=1689206400&v=beta&t=n9VNTW4SlY8NTqWAmTOrFfbayNkINUE23wDgW6k25QQ"/>
           <div class="w-full">
